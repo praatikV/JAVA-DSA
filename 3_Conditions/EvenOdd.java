@@ -1,4 +1,6 @@
+
 import java.util.Scanner;
+
 
 public class EvenOdd {
     public static void main(String[] args) {
@@ -12,7 +14,8 @@ public class EvenOdd {
             } else { // If the number is not even, it is odd
                 System.out.println("ODD"); // Print "ODD" if the number is odd
             }
-            sc.close(); // Close the scanner object to free up resources
+            sc.close();
+
         }
     }
 }
